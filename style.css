@@ -781,13 +781,13 @@ input[type=email] {
 /* ==========================================================================
    Sub Navi
    ========================================================================== */
-.subnavi {
+. {
   list-style: none;
 }
-.subnavi li {
+. li {
   display: inline-block;
 }
-.subnavi li a {
+. li a {
   color: #fff;
   font-size: 16px;
 }
@@ -804,11 +804,11 @@ input[type=email] {
   display: table-cell;
   vertical-align: middle;
 }
-.navi-warp-home-1 .subnavi {
+.navi-warp-home-1 . {
   float: right;
   display: inline-block;
 }
-.navi-warp-home-1 .subnavi a {
+.navi-warp-home-1 . a {
   display: block;
   min-width: 15px;
 }
@@ -816,12 +816,12 @@ input[type=email] {
   float: right;
   display: inline-block;
 }
-.navi-warp-home-1 .subnavi a {
+.navi-warp-home-1 . a {
   line-height: 82px;
   margin-left: 20px;
   transition: all all 0.3s ease-in-out;
 }
-.navi-warp-home-1 .subnavi a:hover {
+.navi-warp-home-1 . a:hover {
   color: #ffb600;
 }
 /* Header home 2 style */
@@ -848,13 +848,13 @@ input[type=email] {
   color: #222;
   padding: 0 19px;
 }
-.navi-warp-home-2 .subnavi {
+.navi-warp-home-2 . {
   display: table-cell;
   vertical-align: middle;
   float: none;
   text-align: right;
 }
-.navi-warp-home-2 .subnavi a {
+.navi-warp-home-2 . a {
   line-height: 82px;
   transition: all all 0.3s ease-in-out;
   line-height: 36px;
@@ -865,7 +865,7 @@ input[type=email] {
   color: #fff;
   background: #0a2c4e;
 }
-.navi-warp-home-2 .subnavi a:hover {
+.navi-warp-home-2 . a:hover {
   background: #ffb600;
 }
 /* Header Home 3 Style */
@@ -879,11 +879,11 @@ input[type=email] {
   display: table-cell;
   vertical-align: middle;
 }
-.navi-warp-home-3 .subnavi {
+.navi-warp-home-3 . {
   float: right;
   display: inline-block;
 }
-.navi-warp-home-3 .subnavi a {
+.navi-warp-home-3 . a {
   display: block;
   min-width: 15px;
 }
@@ -1067,13 +1067,13 @@ input[type=email] {
 .navi-warp-home-5-inner nav {
   display: inline-block;
 }
-.navi-warp-home-5-inner .subnavi {
+.navi-warp-home-5-inner . {
   display: table-cell;
   vertical-align: middle;
   float: none;
   text-align: right;
 }
-.navi-warp-home-5-inner .subnavi a {
+.navi-warp-home-5-inner . a {
   transition: all all 0.3s ease-in-out;
   line-height: 36px;
   height: 36px;
@@ -1083,7 +1083,7 @@ input[type=email] {
   color: #fff;
   background: transparent;
 }
-.navi-warp-home-5-inner .subnavi a:hover {
+.navi-warp-home-5-inner . a:hover {
   background: #0a2c4e;
 }
 /* Header home 6 style */
@@ -1143,13 +1143,13 @@ input[type=email] {
 .topbar-home6 nav {
   display: inline-block;
 }
-.topbar-home6 .subnavi {
+.topbar-home6 . {
   margin-top: 7px;
   float: right;
   text-align: right;
   margin-left: 35px;
 }
-.topbar-home6 .subnavi a {
+.topbar-home6 . a {
   transition: all all 0.3s ease-in-out;
   line-height: 36px;
   height: 36px;
@@ -1160,7 +1160,7 @@ input[type=email] {
   background: transparent;
   opacity: 0.6;
 }
-.topbar-home6 .subnavi a:hover {
+.topbar-home6 . a:hover {
   background: #0a2c4e;
   opacity: 1;
 }
@@ -1229,12 +1229,12 @@ input[type=email] {
 .navi-warp-home-7-inner nav {
   display: inline-block;
 }
-.navi-warp-home-7-inner .subnavi {
+.navi-warp-home-7-inner . {
   text-align: right;
   display: inline-block;
   float: right;
 }
-.navi-warp-home-7-inner .subnavi a {
+.navi-warp-home-7-inner . a {
   transition: all all 0.3s ease-in-out;
   line-height: 50px;
   height: 50px;
@@ -1244,7 +1244,7 @@ input[type=email] {
   color: #fff;
   background: rgba(255, 255, 255, 0.1);
 }
-.navi-warp-home-7-inner .subnavi a:hover {
+.navi-warp-home-7-inner . a:hover {
   background: #0a2c4e;
 }
 .get-a-quote-h7 {
@@ -1314,12 +1314,12 @@ input[type=email] {
 .navi-warp-home-8-inner nav {
   display: inline-block;
 }
-.navi-warp-home-8-inner .subnavi {
+.navi-warp-home-8-inner . {
   text-align: right;
   display: inline-block;
   float: right;
 }
-.navi-warp-home-8-inner .subnavi a {
+.navi-warp-home-8-inner . a {
   transition: all all 0.3s ease-in-out;
   line-height: 50px;
   height: 50px;
@@ -1329,7 +1329,7 @@ input[type=email] {
   color: #222;
   background: transparent;
 }
-.navi-warp-home-8-inner .subnavi a:hover {
+.navi-warp-home-8-inner . a:hover {
   color: #ffb600;
 }
 /* Header home 9 style */
@@ -10286,11 +10286,11 @@ small.time {
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1199px) {
   /* Header 1 */
-  .navi-warp-home-1 .subnavi {
+  .navi-warp-home-1 . {
     display: none;
   }
   /* HEader 2 */
-  .navi-warp-home-2 .subnavi {
+  .navi-warp-home-2 . {
     display: none;
   }
   /* header 3 */
@@ -10414,7 +10414,7 @@ small.time {
   .navi-warp-home-1 .btn-menu-mobile:focus {
     color: #ffb600;
   }
-  .navi-warp-home-1 .subnavi {
+  .navi-warp-home-1 . {
     margin-right: 50px;
     display: block;
   }
@@ -10446,7 +10446,7 @@ small.time {
     height: 58px;
     padding: 10px 15px;
   }
-  .navi-warp-home-2 .subnavi {
+  .navi-warp-home-2 . {
     display: inline-block;
     float: right;
     margin-left: 5px;
@@ -10513,11 +10513,11 @@ small.time {
     line-height: 36px;
     color: #fff;
   }
-  .navi-warp-home-5 .subnavi {
+  .navi-warp-home-5 . {
     float: right;
     display: inline-block;
   }
-  .navi-warp-home-5 .subnavi a {
+  .navi-warp-home-5 . a {
     background: #0a2c4e;
   }
   /* Header 6 */
@@ -10580,7 +10580,7 @@ small.time {
     background: #fff;
     padding: 7px 0;
   }
-  .navi-warp-home-7-inner .subnavi a {
+  .navi-warp-home-7-inner . a {
     background: #0a2c4e;
   }
   .get-a-quote-h7 {
@@ -11516,7 +11516,7 @@ small.time {
     max-width: 120px;
   }
   .header-1-fix .btn-menu-mobile,
-  .navi-warp-home-1 .subnavi a {
+  .navi-warp-home-1 . a {
     line-height: 40px;
   }
   .header-1-fix .tb-social-lan a {
@@ -11555,7 +11555,7 @@ small.time {
   }
   /* Header 7 */
   .navi-warp-home-7 .btn-menu-mobile,
-  .navi-warp-home-7-inner .subnavi a {
+  .navi-warp-home-7-inner . a {
     width: 36px;
     height: 36px;
     line-height: 36px;
@@ -11565,7 +11565,7 @@ small.time {
   }
   /* Header 8 */
   .navi-warp-home-8 .btn-menu-mobile,
-  .navi-warp-home-8-inner .subnavi a {
+  .navi-warp-home-8-inner . a {
     width: 36px;
     height: 36px;
     line-height: 36px;
