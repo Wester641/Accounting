@@ -2654,7 +2654,7 @@ body.royal_loader {
 .offer-h3-warp .owl-item {
   padding: 0 15px;
 }
-.owl-item {
+.owl-item-1 {
   height: 160px;
 }
 .offer-h3-warp .owl-controls {
@@ -5531,6 +5531,7 @@ ul.pagination li.active a {
   justify-content: center;
   align-items: center;
   padding: 25px;
+  height: 160px;
 }
 /* Testimonial List */
 .testimonial-list .test-list-item {
