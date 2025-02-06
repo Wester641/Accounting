@@ -60,7 +60,7 @@ a:focus {
   text-decoration: none;
 }
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 13px;
   line-height: 24px;
   color: #727272;
@@ -97,14 +97,14 @@ select {
   transition: all 0.5s ease-in-out;
 }
 .custom-select:focus {
-  border-color: #0a2c4e ;
+  border-color: #0a2c4e;
 }
-input[type=text] {
+input[type="text"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
-input[type=email] {
+input[type="email"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -249,7 +249,13 @@ input[type=email] {
   background: #0a2c4e;
 }
 .tb-gradient {
-  background: linear-gradient(to right, #0a2c4e 0%, #0a2c4e 80%, #ffb600 80%, #ffb600 100%);
+  background: linear-gradient(
+    to right,
+    #0a2c4e 0%,
+    #0a2c4e 80%,
+    #ffb600 80%,
+    #ffb600 100%
+  );
 }
 .tb-md {
   height: 72px;
@@ -281,7 +287,7 @@ input[type=email] {
 .tb-transparent .tb-contact a {
   color: #fff;
   line-height: 72px;
-  opacity: .6;
+  opacity: 0.6;
   transition: all 0.5s ease-in-out;
 }
 .tb-transparent .tb-contact a:hover {
@@ -310,7 +316,7 @@ input[type=email] {
   vertical-align: middle;
   line-height: 18px;
   margin-left: 10px;
-  opacity: .6;
+  opacity: 0.6;
   transition: all 0.5s ease-in-out;
 }
 .tb-iconbox > ul > li > a > span > i {
@@ -336,7 +342,7 @@ input[type=email] {
 .tb-social-lan a {
   color: #fff;
   line-height: 72px;
-  opacity: .6;
+  opacity: 0.6;
   transition: all 0.5s ease-in-out;
 }
 .tb-social-lan a:hover {
@@ -360,7 +366,7 @@ input[type=email] {
   box-shadow: none;
   outline: none;
   color: #fff;
-  opacity: .6;
+  opacity: 0.6;
   min-width: 100px;
   width: auto;
 }
@@ -396,7 +402,7 @@ input[type=email] {
 .language div.fancy-select ul.options li {
   width: 100%;
   color: #fff;
-  opacity: .6;
+  opacity: 0.6;
   transition: all all 0.3s ease-in-out;
   font-weight: 300;
 }
@@ -500,7 +506,7 @@ input[type=email] {
 .topbar-home5 .tb-social-lan a {
   color: #fff;
   line-height: 40px;
-  opacity: .6;
+  opacity: 0.6;
   transition: all 0.5s ease-in-out;
 }
 .topbar-home5 .tb-social-lan a:hover {
@@ -542,7 +548,7 @@ input[type=email] {
 .topbar-home6 .tb-social-lan a {
   color: #fff;
   line-height: 50px;
-  opacity: .6;
+  opacity: 0.6;
   transition: all 0.5s ease-in-out;
 }
 .topbar-home6 .tb-social-lan a:hover {
@@ -635,7 +641,7 @@ input[type=email] {
   top: 100%;
 }
 .search-popup.fadeInUp {
-  animation-duration: .4s;
+  animation-duration: 0.4s;
 }
 .open-search-input .form-control {
   padding: 18px 12px;
@@ -671,7 +677,7 @@ input[type=email] {
   position: relative;
 }
 .navi-level-1 .fadeInUp {
-  animation-duration: .4s;
+  animation-duration: 0.4s;
 }
 .navi-level-1 li:last-child ul.navi-level-2 {
   right: 0;
@@ -898,7 +904,7 @@ input[type=email] {
   color: #fff;
   padding: 0 19px;
   padding-top: 18px;
-  opacity: .6;
+  opacity: 0.6;
   transition: all 0.5s ease-in-out;
 }
 .navi-warp-home-3 .navi-level-1 > li.active > a {
@@ -1122,7 +1128,7 @@ input[type=email] {
   line-height: 50px;
   color: #fff;
   padding: 0 19px;
-  opacity: .6;
+  opacity: 0.6;
 }
 .topbar-home6 .navi-level-1 > li > a:hover {
   opacity: 1;
@@ -1208,7 +1214,7 @@ input[type=email] {
   line-height: 50px;
   color: #fff;
   padding: 0 19px;
-  opacity: .6;
+  opacity: 0.6;
 }
 .navi-warp-home-7-inner .navi-level-1 > li > a:hover {
   opacity: 1;
@@ -1529,7 +1535,7 @@ h3.title-mix {
 }
 .breadcrumb > li > a {
   color: #fff;
-  opacity: .6;
+  opacity: 0.6;
   transition: all 0.5s ease-in-out;
 }
 .breadcrumb > li > a:hover {
@@ -1667,7 +1673,7 @@ body.royal_loader {
   left: 0px;
   right: 0px;
   text-transform: uppercase;
-  color: #EEEEEE;
+  color: #eeeeee;
   text-align: center;
   opacity: 0;
   -webkit-transition: -webkit-transform 0.3s linear;
@@ -1682,12 +1688,12 @@ body.royal_loader {
   animation: fly 0.3s;
 }
 #royal_preloader.number .percentage {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: Impact, Arial;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   text-align: center;
   margin: -90px 0px 0px -90px;
-  background-image: url('../images/loader.gif');
+  background-image: url("../images/loader.gif");
   background-repeat: no-repeat;
   background-position: 50% 0;
   padding-top: 80px;
@@ -1764,7 +1770,7 @@ body.royal_loader {
   width: 180px;
   height: 30px;
   line-height: 40px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
   letter-spacing: 2px;
@@ -1888,7 +1894,7 @@ body.royal_loader {
   position: relative;
   margin-bottom: 95px;
 }
-.owl-services-h1 .owl-item:nth-child(2n+2) {
+.owl-services-h1 .owl-item:nth-child(2n + 2) {
   background: #f3f3f3;
 }
 .btn-1 {
@@ -1918,7 +1924,7 @@ body.royal_loader {
   opacity: 0.5;
 }
 .owl-services-h1 .btn-1:hover {
-  opacity: .9;
+  opacity: 0.9;
   color: #fff;
 }
 .services-h1-warp .btn-1 {
@@ -1975,8 +1981,8 @@ body.royal_loader {
   top: 0;
 }
 .background-image {
-  background-position: 50% 50% ;
-  background-size: cover ;
+  background-position: 50% 50%;
+  background-size: cover;
   width: 100%;
   height: 100%;
   left: 0;
@@ -2005,7 +2011,7 @@ body.royal_loader {
   margin-bottom: 30px;
 }
 .partner-img {
-  opacity: .8;
+  opacity: 0.8;
   transition: all all 0.3s ease-in-out;
   margin: 0 auto;
 }
@@ -2085,7 +2091,7 @@ body.royal_loader {
 .cb-form input.form-control:focus {
   outline: none;
   border-color: #0a2c4e;
-  box-shadow: none ;
+  box-shadow: none;
 }
 .cb-form div.fancy-select div.trigger {
   width: 100%;
@@ -2099,7 +2105,7 @@ body.royal_loader {
   margin-bottom: 30px;
 }
 .cb-form div.fancy-select select:focus + div.trigger {
-  box-shadow: none ;
+  box-shadow: none;
 }
 .cb-form div.fancy-select ul.options {
   width: 100%;
@@ -2206,7 +2212,7 @@ body.royal_loader {
   background: transparent;
   border: 0;
   border-bottom: 1px solid #fff;
-  opacity: .5;
+  opacity: 0.5;
   line-height: 24px;
   color: #fff;
 }
@@ -2403,10 +2409,10 @@ body.royal_loader {
   right: 0;
 }
 .offer-h2-warp:hover .btn-1 {
-  opacity: .5;
+  opacity: 0.5;
 }
 .offer-h2-warp .btn-1:hover {
-  opacity: .9;
+  opacity: 0.9;
   color: #fff;
 }
 /* Home 2 Why choose */
@@ -2648,6 +2654,9 @@ body.royal_loader {
 .offer-h3-warp .owl-item {
   padding: 0 15px;
 }
+.owl-item {
+  height: 160px;
+}
 .offer-h3-warp .owl-controls {
   height: 15px;
   position: absolute;
@@ -2825,7 +2834,7 @@ body.royal_loader {
   font-weight: 500;
 }
 .cb-warp-h4 .background-image {
-  background-position: 70% 30% ;
+  background-position: 70% 30%;
 }
 .whyus-content-h4 {
   padding: 95px 0 50px 80px;
@@ -2854,7 +2863,7 @@ body.royal_loader {
 }
 .accordion-1 .panel-heading .accordion-toggle:after {
   /* symbol for "opening" panels */
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
   /* essential for enabling glyphicon */
   content: "\f056";
   /* adjust as needed, taken from bootstrap.css */
@@ -3080,13 +3089,13 @@ body.royal_loader {
 .cb-form.cb-form-on-dark input.form-control {
   border: 1px solid #fff;
   margin-bottom: 30px;
-  opacity: .6;
+  opacity: 0.6;
   color: #fff;
 }
 .cb-form.cb-form-on-dark div.fancy-select div.trigger {
   border: 1px solid #fff;
   margin-bottom: 30px;
-  opacity: .6;
+  opacity: 0.6;
   color: #fff;
 }
 .cb-form.cb-form-on-dark ::-webkit-input-placeholder {
@@ -3094,7 +3103,7 @@ body.royal_loader {
 }
 .cb-form.cb-form-on-dark :-moz-placeholder {
   /* Firefox 18- */
-  color: #fff ;
+  color: #fff;
 }
 .cb-form.cb-form-on-dark ::-moz-placeholder {
   /* Firefox 19+ */
@@ -3302,7 +3311,7 @@ body.royal_loader {
   display: inline-block;
   width: 100%;
 }
-.services-h6-warp > [class*='col-'] {
+.services-h6-warp > [class*="col-"] {
   padding-right: 0;
   padding-left: 0;
 }
@@ -3322,8 +3331,8 @@ body.royal_loader {
   top: 0;
 }
 .background-image {
-  background-position: 50% 50% ;
-  background-size: cover ;
+  background-position: 50% 50%;
+  background-size: cover;
   width: 100%;
   height: 100%;
   left: 0;
@@ -3501,7 +3510,7 @@ body.royal_loader {
   cursor: pointer;
 }
 .partner-warp-h7:hover .btn-2 {
-  opacity: .5;
+  opacity: 0.5;
 }
 .btn-2:hover {
   color: #fff;
@@ -3560,7 +3569,7 @@ body.royal_loader {
   color: #fff;
 }
 .cb-info-warp-h7 .cb-form input.form-control {
-  opacity: .6;
+  opacity: 0.6;
 }
 .cb-info-warp-h7 .cb-form input.form-control:focus {
   border-color: #ffb600;
@@ -3568,7 +3577,7 @@ body.royal_loader {
 }
 .cb-info-warp-h7 .cb-form div.fancy-select div.trigger {
   color: #fff;
-  opacity: .6;
+  opacity: 0.6;
 }
 .cb-info-warp-h7 .cb-form div.fancy-select select:focus + div.trigger {
   opacity: 1;
@@ -3614,7 +3623,7 @@ body.royal_loader {
   transition: all 0.5s ease-in-out;
 }
 .item-about-h7 .img-warp-about:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 .item-about-h7 .btn-play-about {
   position: absolute;
@@ -4027,7 +4036,7 @@ body.royal_loader {
   top: -40px;
   right: -20px;
   color: #fff;
-  opacity: .7;
+  opacity: 0.7;
   transition: all 0.5s ease-in-out;
 }
 .infobox-in-map .simple-close-btn:hover {
@@ -4070,8 +4079,8 @@ body.royal_loader {
   content: "";
   width: 0;
   height: 0;
-  border-right: 1px solid transparent ;
-  border-left: 8px solid transparent ;
+  border-right: 1px solid transparent;
+  border-left: 8px solid transparent;
   border-top-width: 7px;
   border-top-style: solid;
   position: absolute;
@@ -4177,7 +4186,7 @@ body.royal_loader {
 }
 .accordion-3 .panel-heading .accordion-toggle:after {
   /* symbol for "opening" panels */
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
   /* essential for enabling glyphicon */
   content: "\f056";
   /* adjust as needed, taken from bootstrap.css */
@@ -4785,7 +4794,7 @@ ul.wd-list-link li.active a {
   clear: both;
 }
 .timeline-centered:before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 4px;
@@ -4866,7 +4875,7 @@ ul.wd-list-link li.active a {
   margin-bottom: 0;
 }
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label:after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   width: 0;
@@ -5329,7 +5338,7 @@ ul.pagination li.active a {
 }
 .accordion-2 .panel-heading .accordion-toggle:after {
   /* symbol for "opening" panels */
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
   /* essential for enabling glyphicon */
   content: "\f056";
   /* adjust as needed, taken from bootstrap.css */
@@ -5515,6 +5524,13 @@ ul.pagination li.active a {
 }
 .item-partner-list:hover img {
   filter: contrast(100%);
+}
+.item-partner {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
 }
 /* Testimonial List */
 .testimonial-list .test-list-item {
@@ -6577,7 +6593,7 @@ footer {
   margin-right: 10px;
   color: #bababa;
   transition: all 0.5s ease-in-out;
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
 }
 .widget-footer-list-link a:hover:before {
   color: #ffb600;
@@ -6639,7 +6655,7 @@ small.time {
   border: 1px solid #fff;
   border-radius: 0;
   background: transparent;
-  opacity: .6;
+  opacity: 0.6;
   transition: all 0.5s ease-in-out;
 }
 .form-subcri-footer input.form-control:focus {
@@ -6694,7 +6710,7 @@ small.time {
   color: #fff;
   font-size: 14.4px;
   display: block;
-  font-family: 'FontAwesome';
+  font-family: "FontAwesome";
 }
 .widget-footer-tweets .owl-tweets-footer .owl-item {
   overflow: hidden;
@@ -6710,7 +6726,7 @@ small.time {
   border-radius: 50%;
   border: 1px solid #fff;
   background: transparent;
-  opacity: .6;
+  opacity: 0.6;
   transition: all 0.5s ease-in-out;
 }
 .owl-tweets-footer .owl-pagination .owl-page:hover,
@@ -7007,51 +7023,51 @@ small.time {
   font-size: 21px;
   color: #fff;
   font-weight: 300;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .sl-s2 {
   font-size: 60px;
   color: #fff;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .sl-s2-2 {
   font-size: 60px;
   color: #0a2c4e;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .sl-s3 {
   font-size: 16px;
   color: #fff;
   font-weight: 300;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 32px;
 }
 .sl-s3-2 {
   font-size: 16px;
   color: #222;
   font-weight: 300;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 32px;
 }
 .sl-s4 {
   font-size: 32px;
   color: #fff;
   font-weight: 300;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .sl-s4-2 {
   font-size: 32px;
   color: #0a2c4e;
   font-weight: 300;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .sl-s5 {
   font-size: 60px;
   color: #fff;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 70px;
 }
 .sl-s5 span {
@@ -7061,7 +7077,7 @@ small.time {
   font-size: 70px;
   color: #0a2c4e;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 80px;
 }
 /* 
@@ -7288,7 +7304,7 @@ small.time {
   float: left;
   margin-right: 10px;
   line-height: 38px;
-  transition: background .3s;
+  transition: background 0.3s;
 }
 .slider-home7 .sl-btn-1:hover {
   color: #0a2c4e;
@@ -7299,7 +7315,7 @@ small.time {
   display: inline-block;
   float: left;
   line-height: 38px;
-  transition: background .3s;
+  transition: background 0.3s;
 }
 /* 
    Home 10
@@ -7319,7 +7335,7 @@ small.time {
   width: 100%;
   max-width: 1170px;
   left: 50%;
-  transform: translate(-50%, -50px) ;
+  transform: translate(-50%, -50px);
 }
 @media only screen and (max-width: 1024px) {
   .tp-bullets.custom {
@@ -8721,25 +8737,29 @@ small.time {
 }
 @-webkit-keyframes flip {
   0% {
-    -webkit-transform: perspective(400px) translateZ(0) rotateY(-360deg) scale(1);
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(-360deg)
+      scale(1);
     transform: perspective(400px) translateZ(0) rotateY(-360deg) scale(1);
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
   }
   40% {
-    -webkit-transform: perspective(400px) translateZ(150px) rotateY(-190deg) scale(1);
+    -webkit-transform: perspective(400px) translateZ(150px) rotateY(-190deg)
+      scale(1);
     transform: perspective(400px) translateZ(150px) rotateY(-190deg) scale(1);
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
   }
   50% {
-    -webkit-transform: perspective(400px) translateZ(150px) rotateY(-170deg) scale(1);
+    -webkit-transform: perspective(400px) translateZ(150px) rotateY(-170deg)
+      scale(1);
     transform: perspective(400px) translateZ(150px) rotateY(-170deg) scale(1);
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
   80% {
-    -webkit-transform: perspective(400px) translateZ(0) rotateY(0deg) scale(0.95);
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(0deg)
+      scale(0.95);
     transform: perspective(400px) translateZ(0) rotateY(0deg) scale(0.95);
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
@@ -8753,28 +8773,34 @@ small.time {
 }
 @keyframes flip {
   0% {
-    -webkit-transform: perspective(400px) translateZ(0) rotateY(-360deg) scale(1);
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(-360deg)
+      scale(1);
     -ms-transform: perspective(400px) translateZ(0) rotateY(-360deg) scale(1);
     transform: perspective(400px) translateZ(0) rotateY(-360deg) scale(1);
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
   }
   40% {
-    -webkit-transform: perspective(400px) translateZ(150px) rotateY(-190deg) scale(1);
-    -ms-transform: perspective(400px) translateZ(150px) rotateY(-190deg) scale(1);
+    -webkit-transform: perspective(400px) translateZ(150px) rotateY(-190deg)
+      scale(1);
+    -ms-transform: perspective(400px) translateZ(150px) rotateY(-190deg)
+      scale(1);
     transform: perspective(400px) translateZ(150px) rotateY(-190deg) scale(1);
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
   }
   50% {
-    -webkit-transform: perspective(400px) translateZ(150px) rotateY(-170deg) scale(1);
-    -ms-transform: perspective(400px) translateZ(150px) rotateY(-170deg) scale(1);
+    -webkit-transform: perspective(400px) translateZ(150px) rotateY(-170deg)
+      scale(1);
+    -ms-transform: perspective(400px) translateZ(150px) rotateY(-170deg)
+      scale(1);
     transform: perspective(400px) translateZ(150px) rotateY(-170deg) scale(1);
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
   80% {
-    -webkit-transform: perspective(400px) translateZ(0) rotateY(0deg) scale(0.95);
+    -webkit-transform: perspective(400px) translateZ(0) rotateY(0deg)
+      scale(0.95);
     -ms-transform: perspective(400px) translateZ(0) rotateY(0deg) scale(0.95);
     transform: perspective(400px) translateZ(0) rotateY(0deg) scale(0.95);
     -webkit-animation-timing-function: ease-in;
@@ -8840,9 +8866,9 @@ small.time {
   }
 }
 .flipInX {
-  -webkit-backface-visibility: visible ;
-  -ms-backface-visibility: visible ;
-  backface-visibility: visible ;
+  -webkit-backface-visibility: visible;
+  -ms-backface-visibility: visible;
+  backface-visibility: visible;
   -webkit-animation-name: flipInX;
   animation-name: flipInX;
 }
@@ -8891,9 +8917,9 @@ small.time {
   }
 }
 .flipInY {
-  -webkit-backface-visibility: visible ;
-  -ms-backface-visibility: visible ;
-  backface-visibility: visible ;
+  -webkit-backface-visibility: visible;
+  -ms-backface-visibility: visible;
+  backface-visibility: visible;
   -webkit-animation-name: flipInY;
   animation-name: flipInY;
 }
@@ -8926,9 +8952,9 @@ small.time {
 .flipOutX {
   -webkit-animation-name: flipOutX;
   animation-name: flipOutX;
-  -webkit-backface-visibility: visible ;
-  -ms-backface-visibility: visible ;
-  backface-visibility: visible ;
+  -webkit-backface-visibility: visible;
+  -ms-backface-visibility: visible;
+  backface-visibility: visible;
 }
 @-webkit-keyframes flipOutY {
   0% {
@@ -8957,9 +8983,9 @@ small.time {
   }
 }
 .flipOutY {
-  -webkit-backface-visibility: visible ;
-  -ms-backface-visibility: visible ;
-  backface-visibility: visible ;
+  -webkit-backface-visibility: visible;
+  -ms-backface-visibility: visible;
+  backface-visibility: visible;
   -webkit-animation-name: flipOutY;
   animation-name: flipOutY;
 }
@@ -10794,7 +10820,7 @@ small.time {
     transform: none;
     top: auto;
     left: auto;
-    padding: 40px  0 20px 0;
+    padding: 40px 0 20px 0;
   }
   /* Home 4 */
   .strategy-warp-h4 .iconbox.no-mgb {
